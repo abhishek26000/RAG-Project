@@ -9,9 +9,9 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import os
 
-st.set_page_config(page_title="Mistral PDF QA", layout="wide")
+st.set_page_config(page_title=" AI PDF QA", layout="wide")
 
-st.title("📄 MistralAI PDF Question Answering System")
+st.title("📄 PDF Question Answering System")
 
 uploaded_file = st.file_uploader("Upload your PDF", type="pdf")
 
